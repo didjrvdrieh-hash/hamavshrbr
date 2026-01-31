@@ -1,0 +1,26 @@
+{
+  "name": "panel-hama-vercel",
+  "version": "1.0.0",
+  "description": "Panel Hama w 4DXCM - Vercel Deployment",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "vercel dev"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-fetch": "^2.6.7",
+    "cors": "^2.8.5"
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "keywords": [
+    "panel",
+    "hama",
+    "4dxcm",
+    "vercel"
+  ],
+  "author": "PANEL HAMA",
+  "license": "MIT"
+}
